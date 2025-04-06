@@ -3,7 +3,7 @@ from box.exceptions import BoxValueError
 from box import ConfigBox
 import yaml
 from text_summarizer.loggin import logger
-from ensure import ensure_annotations
+from beartype import beartype as ensure_annotations
 from pathlib import Path
 from typing import Any
 
